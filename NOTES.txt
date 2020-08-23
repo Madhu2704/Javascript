@@ -19,3 +19,10 @@ As an example, in normal JavaScript, mistyping a variable name creates a new glo
 In normal JavaScript, a developer will not receive any error feedback assigning values to non-writable properties.
 In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object, will throw an error.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+POINT-4:
+----------
+Variables, declared with var, are either function-wide or global. 
+They are visible through blocks.var pierces through if, for or other code blocks. 
+That’s because a long time ago in JavaScript blocks had no Lexical Environments. And var is a remnant of that.
+
