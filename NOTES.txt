@@ -32,3 +32,8 @@ POINT-5:
 Declarations are hoisted, but assignments are not.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+POINT-6:
+---------
+JavaScript is dynamically typed, that simple means that types can change at run time.
+That’s completely legal JavaScript, we can set the variable “myvar” to a number, some text, or an array, and JavaScript will let us.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
