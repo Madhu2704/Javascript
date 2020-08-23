@@ -25,4 +25,10 @@ POINT-4:
 Variables, declared with var, are either function-wide or global. 
 They are visible through blocks.var pierces through if, for or other code blocks. 
 That’s because a long time ago in JavaScript blocks had no Lexical Environments. And var is a remnant of that.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+POINT-5:
+----------
+Declarations are hoisted, but assignments are not.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
